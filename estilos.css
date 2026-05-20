@@ -1,0 +1,43 @@
+body{
+    background-color: pink;
+    font-family: Arial;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.caja{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: hotpink;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+p{
+    font-weight: bold;
+}
+/* ✅ FIX 5: Realce visual para bloques de resultado */
+.resultado {
+    font-weight: bold;
+    background-color: #fff0f5;
+    border-left: 4px solid hotpink;
+    padding: 10px 14px;
+    margin-top: 12px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    color: #c2185b;
+}
